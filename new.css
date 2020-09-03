@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Sans-serif";
+}
+
+body {
+    background-color: #30445c;
+    background: url(img/8b50f77fd04d6f25da130d50a9a9912d.jpg)no-repeat;
+}
+
+.box i {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.box {
+    box-shadow: 6px 5px 8px #A19B9A;
+    width: 447px;
+    height: 424px;
+    background-color: #1a191b;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 78px;
+    text-align: center;
+}
+
+input[type="text"] {
+    margin-top: 34px;
+}
+
+input[type="password"] {
+    margin-top: 23px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 254px;
+    height: 49px;
+    border-radius: 32px;
+    border: 3px solid #2d7ab8;
+    text-align: center;
+    font-size: 17px;
+    background-color: #1a191b;
+    overflow: hidden;
+    transition: 1.2s;
+    /* 移除默认的focus */
+    outline: none;
+    color: #ffffff;
+    margin-right: 22px;
+}
+
+input[type="button"] {
+    height: 56px;
+    width: 140px;
+    border: 3px solid #46a385;
+    background-color: #1a191b;
+    border-radius: 23px;
+    color: #ffffff;
+    font-size: 17px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    width: 300px;
+    border-color: aquamarine;
+}
+
+input[type="button"]:hover {
+    width: 245px;
+    border-color: violet;
+    transition: 0.7s;
+}
+
+img {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    left: 50%;
+    top: 13%;
+    transform: translateX(-50%);
+    /* 对hover回程的过渡 */
+    transition: 0.7s;
+}
+
+img:hover {
+    margin-top: -20px;
+    transition: 0.7s;
+}
